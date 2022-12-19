@@ -52,5 +52,13 @@ export const GlobalStyles = createGlobalStyle`
         background-color: #d22566;
         color: white;
         font-weight: 700;
+        cursor: pointer;
+
+        
+      }
+
+      button:hover{
+        background-color: #f1bdd1;
+        color: #d22566;
       }
       `;

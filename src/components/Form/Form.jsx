@@ -4,7 +4,7 @@ import { nanoid } from '@reduxjs/toolkit';
 import customNotiflix from 'utils/notiflix';
 
 import { FormStyled, Label, Input } from './Form.styled';
-import { addContact } from 'redux/contactsSlice';
+import { addContact } from 'redux/operations';
 import { getContacts } from 'redux/selectors';
 
 export const Form = () => {
