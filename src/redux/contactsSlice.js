@@ -11,7 +11,9 @@ const handleRejected = (state, action) => {
   state.isLoading = false;
   state.error = action.payload;
 };
-const handlePending = state => (state.isLoading = true);
+const handlePending = state => {
+  state.isLoading = true;
+};
 
 const contactsSlice = createSlice({
   name: 'contacts',
