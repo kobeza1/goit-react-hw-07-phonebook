@@ -46,6 +46,9 @@ export const GlobalStyles = createGlobalStyle`
         height: 20px;
       }
       button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 6px 15px;
         border-radius: 30px;
         border: none;

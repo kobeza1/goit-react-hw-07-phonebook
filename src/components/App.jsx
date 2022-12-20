@@ -21,7 +21,6 @@ const App = () => {
   return (
     <Box>
       {isLoading && !error && <Loader>Request in progress...</Loader>}
-
       <Section title={'Phonebook'}>
         <Form />
       </Section>
